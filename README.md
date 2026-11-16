@@ -10,7 +10,8 @@ Reine HTML/CSS/JavaScript-Seite, ohne Installation und ohne Server.
 1. Auf github.com ein neues Repository anlegen (z. B. `frites-betrieb`).
 2. Alle Dateien aus diesem Ordner hochladen („Add file" > „Upload files").
 3. Im Repository: Settings > Pages > Branch `main`, Ordner `/ (root)` > Save.
-4. Nach ca. 1 Minute ist die Seite unter `https://khalil135711.github.io/frites-betrieb/` erreichbar.
+4. Nach ca. 1 Minute ist die Seite unter `https://benutzername.github.io/frites-betrieb/` erreichbar.
+   DEMO ist unter : https://khalil135711.github.io/frites-betrieb/
 
 ## Wichtig
 - **Nur Testdaten eintragen.** GitHub Pages ist öffentlich im Internet erreichbar. Echte Mitarbeiterdaten (DSGVO) gehören nicht in eine öffentliche Testseite.
