@@ -1,0 +1,24 @@
+:root{--bg:#fffaf0;--fg:#2b2416;--card:#fff;--mut:#7a6f5a;--acc:#d98e04;--line:#eadfc4;--ok:#2e8b57;--warn:#d98e04;--bad:#c0392b;color-scheme:light dark}
+@media (prefers-color-scheme:dark){:root{--bg:#1d1a12;--fg:#f4ecd8;--card:#2a261b;--mut:#b3a888;--line:#40392a}}
+*{box-sizing:border-box}
+body{margin:0 auto;background:var(--bg);color:var(--fg);font:16px/1.4 system-ui,sans-serif;padding:16px;max-width:760px}
+h1{font-size:1.3rem;margin:0 0 4px}
+.sub{color:var(--mut);font-size:.85rem;margin-bottom:12px}
+nav{display:flex;gap:6px;overflow-x:auto;margin-bottom:12px}
+nav button{flex:1;white-space:nowrap;padding:9px 12px;border:1px solid var(--line);background:var(--card);color:var(--fg);border-radius:8px;font:inherit;cursor:pointer}
+nav button.on{background:var(--acc);color:#fff;border-color:var(--acc)}
+form{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:8px;background:var(--card);border:1px solid var(--line);padding:10px;border-radius:10px;margin-bottom:12px}
+label{font-size:.75rem;color:var(--mut);display:flex;flex-direction:column;gap:2px}
+input,select{font:inherit;padding:7px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--fg);width:100%}
+form button{grid-column:1/-1;padding:9px;background:var(--acc);color:#fff;border:0;border-radius:8px;font:inherit;cursor:pointer}
+.wrap{overflow-x:auto}
+table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line)}
+th,td{padding:8px;text-align:left;border-bottom:1px solid var(--line);font-size:.9rem;white-space:nowrap}
+th{color:var(--mut);font-size:.75rem;font-weight:600}
+.x{background:none;border:0;color:var(--bad);cursor:pointer;font-size:1rem}
+.pill{padding:2px 8px;border-radius:10px;color:#fff;font-size:.8rem}
+.note{color:var(--mut);font-size:.85rem;padding:8px}
+#warn{background:var(--warn);color:#fff;padding:8px;border-radius:8px;margin-bottom:10px;display:none;font-size:.85rem}
+footer{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:16px;font-size:.85rem}
+footer button,.imp{padding:7px 10px;border:1px solid var(--line);background:var(--card);color:var(--fg);border-radius:8px;font:inherit;font-size:.85rem;cursor:pointer;flex-direction:row}
+footer a{color:var(--mut)}

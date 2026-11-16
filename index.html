@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Frites Betrieb</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>🍟 Frites Betrieb</h1>
+<div class="sub">Schichten · Zeiten · Bestellungen · MHD</div>
+<div id="warn"></div>
+<nav id="nav"></nav>
+<form id="form"></form>
+<div class="wrap"><table id="tbl"></table></div>
+<footer>
+  <button id="exp" type="button">Daten exportieren</button>
+  <label class="imp">Daten importieren<input id="imp" type="file" accept="application/json" hidden></label>
+  <a href="docs/Datenschutzinformation_Mitarbeiter.pdf" target="_blank">Datenschutzinformation (PDF)</a>
+</footer>
+<script src="storage.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
