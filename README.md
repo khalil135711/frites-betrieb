@@ -18,6 +18,6 @@ Reine HTML/CSS/JavaScript-Seite, ohne Installation und ohne Server.
 - Die Daten liegen im `localStorage` des Browsers: nur auf diesem Gerät, nicht geteilt. Mit „Daten exportieren/importieren" lässt sich ein Stand sichern oder auf ein anderes Gerät übertragen.
 - Für den echten Einsatz mit Inhaber und Mitarbeitern braucht es ein Backend mit Anmeldung und Rollen. Die Stelle dafür ist `storage.js`.
 
-## Inhalt
+## Inhalt:
 - `index.html`, `style.css`, `app.js`, `storage.js`: die App
 - `docs/Datenschutzinformation_Mitarbeiter.pdf`: Vorlage zur Unterschrift (Platzhalter ausfüllen, rechtlich prüfen lassen)
