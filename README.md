@@ -6,7 +6,7 @@ Reine HTML/CSS/JavaScript-Seite, ohne Installation und ohne Server.
 ## Lokal testen
 `index.html` per Doppelklick im Browser öffnen.
 
-## Auf GitHub Pages hosten
+## Auf GitHub Pages hosten:
 1. Auf github.com ein neues Repository anlegen (z. B. `frites-betrieb`).
 2. Alle Dateien aus diesem Ordner hochladen („Add file" > „Upload files").
 3. Im Repository: Settings > Pages > Branch `main`, Ordner `/ (root)` > Save.
